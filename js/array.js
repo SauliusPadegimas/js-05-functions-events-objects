@@ -10,7 +10,7 @@ console.log(names[3]);
 
 // Skaiciu masyvas
 
-const numbers = [1, 5, 9, 12];
+let numbers = [1, 5, 9, 12];
 console.log('numbers ===', numbers);
 console.log(numbers[3]);
 
@@ -35,3 +35,15 @@ for (let index = 0; index < 5; index++) {
     console.log(colors[index]);
 }
 
+// Array length
+
+numbers = [46, 1, 4, 78, 9, 5, 1, 4, 5, 521];
+console.log('numbers ===', numbers);
+console.log('numbers.length ===', numbers.length);
+
+console.log('numbers[numbers.length-1] ===', numbers[numbers.length-1]);
+
+// atspausdinti visus skaicius is bet kokio ilgio masyvo
+for (let i = 0; i < numbers.length; i++) {
+  console.log('  numbers[i] ===',   numbers[i]);
+}
